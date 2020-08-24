@@ -1,0 +1,200 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+/*************HEADER**************/
+.header{
+	width:100%;
+	height:90vh;
+	background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url('DOUGHNUTS.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.header-box{
+	padding-top:230px;
+}
+.header-box h1{
+	color:white;
+	text-align:center;
+	font-weight:800;
+	letter-spacing:2px;
+	font-size:50px;
+	border:1px solid white;
+	text-shadow:2px 2px 3px black;
+	box-sizing:border-box;
+	/*box-shadow:2px 2px 3px black; */
+	padding:50px;
+	margin-top:0px;
+	margin-left:100px;
+	margin-right:100px;
+}
+.header:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	z-index:-1;
+	opacity:0.4;
+}
+/******************NAVBAR*******************/
+.navbar{
+	margin-top:0px;
+	background-color:white!important;
+}
+.navbar li{
+	padding-top:8px;
+	border-right:1px solid gray;
+	vertical-align:center;
+	margin-left:25px;
+}
+.navbar li a{
+	color:brown!important;
+	font-weight:500;
+	text-shadow:2px 2px 3px black;
+	font-size:15px;
+	letter-spacing:2px;
+}
+.navbar li:last-child {
+	float:right;
+	margin-left:450px;
+	border-right:none;
+}
+.navbar li .form-inline .btn{
+	background-color:brown!important;
+}
+.navbar li .form-inline .btn:hover{
+	background-color:brown!important;
+	box-shadow:1px 1px 3px black;
+}
+/*****************COROUSEL SLIDES*********************/
+.Cslider{
+	background-color:rgba(255,153,204,0.2);
+}
+.carousel{
+	width:100%;
+	height:50vh;
+	margin:30px 0 300px 0;
+	box-shadow:2px 2px 5px black;
+}
+.carousel-item h3,p{
+	color:white!important;
+	text-shadow:2px 2px 5px black;
+	letter-spacing:1px;
+}
+/********************RECIPE*****************/
+.recipies{
+	padding-bottom:50px;
+	padding-left:50px;
+	background-color:rgba(255,153,204,0.2);
+}
+.recipies ul li{
+	text-shadow:1px 1px 3px black;
+}
+.recipies h1{
+	color:brown;
+	letter-spacing:1px;
+	text-shadow:2px 2px 5px black;
+	text-align:center;
+	font-weight:600;
+	padding-bottom:30px;
+}
+.recipies p{
+	color:black!important;
+	text-align:justify;
+	width:400px;
+	padding-bottom:30px;
+
+}
+.recipies ul{
+	margin-left:15px;
+	letter-spacing:1px;
+}
+.recipies h6,h4{
+	font-weight:600;
+	text-shadow:2px 2px 5px black;
+}
+/*******************CONTACT*********************/
+.contact{
+	padding-bottom:50px;
+	background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url('DOUGHNUTS1.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.contact h1{
+	color:brown;
+	text-shadow:2px 2px 5px white;
+	text-align:center;
+	letter-spacing:1px;
+	font-weight:600;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+.contact form{
+	padding-left:60%;	
+}
+form input{
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	background:transparent;
+}
+
+form .sub input{
+	border-bottom:none;
+	border-radius:100px;
+	padding:5px 180px 5px 180px;
+	color:white;
+	text-shadow:2px 2px 3px black;
+	letter-spacing:1px;
+	box-shadow:2px 2px 3px black;
+	background-color:brown;
+}
+form .sub input:hover{
+	box-shadow:2px 2px 3px white;
+}
+::placeholder{
+	color:rgba(255,255,255,0.6);
+}
+/*******************FOOTER*******************/
+footer{
+	padding:5px 100px 5px 200px;
+	vertical-align:center;
+}
+footer img{
+	padding:0px 10px 0px 10px;
+	-webkit-filter: drop-shadow(2px 2px 5px black);
+  filter: drop-shadow(2px 2px 5px black);
+}
+.images{
+	margin-left:200px;
+}
+.image1{
+	border-right:3px solid #33CC33;
+}
+.image2{
+	border-right:3px solid #CC0033;
+}
+.image3{
+	border-right:3px solid #333399;
+}
+.image4{
+	border-right:3px solid #FFCC66;
+}
+.image5{
+	border-right:3px solid #3399FF;
+}
+.image6{
+	border-right:3px solid #009900;
+}
+@media (max-width:700px){
+	.contact{
+	background-size:cover;
+	}
+	footer img{
+	display:inline;
+	}
+}
